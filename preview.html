@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Venkat Mohan Atmakuru - GitHub Profile README Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --border: #1f2937;
+      --accent: #38bdf8;
+      --text: #f3f4f6;
+      --text-muted: #9ca3af;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #38bdf8, #818cf8, #c084fc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+
+    .actions-bar {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      position: sticky;
+      top: 1rem;
+      z-index: 100;
+      background: rgba(11, 15, 25, 0.85);
+      backdrop-filter: blur(12px);
+      padding: 0.75rem 1.25rem;
+      border-radius: 9999px;
+      border: 1px solid var(--border);
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.65rem 1.25rem;
+      border-radius: 9999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #0284c7, #2563eb);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
+    }
+
+    .btn-secondary {
+      background: #1f2937;
+      color: #e5e7eb;
+      border: 1px solid #374151;
+    }
+
+    .preview-card {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 2.5rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+      margin-bottom: 2.5rem;
+    }
+
+    .preview-card hr {
+      border: none;
+      border-top: 1px solid #21262d;
+      margin: 1.5rem 0;
+    }
+
+    pre code {
+      display: block;
+      background: #161b22;
+      padding: 1rem;
+      border-radius: 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.88rem;
+      color: #58a6ff;
+      overflow-x: auto;
+      border: 1px solid #30363d;
+      margin: 1rem 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      color: #c9d1d9;
+    }
+
+    th, td {
+      border: 1px solid #30363d;
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+
+    th {
+      background: #161b22;
+      font-weight: 600;
+    }
+
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: #10b981;
+      color: #ffffff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-weight: 600;
+      display: none;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+      z-index: 1000;
+    }
+
+    .steps-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.75rem;
+      margin-top: 2rem;
+    }
+
+    .step-item {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .step-num {
+      background: var(--accent);
+      color: #0b0f19;
+      font-weight: 700;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>✨ GitHub Profile README (Fixed Header)</h1>
+      <p style="color: var(--text-muted);">High-uptime, guaranteed-rendering animations for <strong>Venkat Mohan Atmakuru</strong></p>
+    </header>
+
+    <div class="actions-bar">
+      <button class="btn btn-primary" onclick="copyReadme()">📋 Copy Updated Markdown</button>
+      <a class="btn btn-secondary" href="https://github.com/VenkatMohan7/VenkatMohan7/new/main?filename=README.md" target="_blank">🚀 Edit README on GitHub</a>
+    </div>
+
+    <!-- Live Preview -->
+    <div class="preview-card" id="preview-content">
+      <div align="center">
+        <!-- Dynamic Header -->
+        <a href="https://github.com/VenkatMohan7" target="_blank">
+          <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=34&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=true&width=800&height=120&lines=%E2%9C%A8+Venkat+Mohan+Atmakuru+%E2%9C%A8;Full-Stack+Developer+%7C+Python+%26+JavaScript;Building+Modern+%26+Scalable+Web+Apps" alt="Venkat Mohan Banner" style="max-width: 100%;" />
+        </a>
+
+        <br />
+
+        <!-- Dynamic Subtitle -->
+        <a href="https://github.com/VenkatMohan7" target="_blank">
+          <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=818CF8&center=true&vCenter=true&width=600&lines=Passionate+about+Clean+Code+%26+Architecture;Always+Learning+%E2%80%A2+Always+Building;Turning+Ideas+Into+Functional+Reality" alt="Typing Subtitle" style="max-width: 100%;" />
+        </a>
+
+        <br /><br />
+
+        <!-- Social Badges -->
+        <p align="center">
+          <a href="mailto:venkeyvenkat747@gmail.com">
+            <img src="https://img.shields.io/badge/Email-venkeyvenkat747%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+          </a>
+          <a href="https://venkat-mohan-atmakuru.vercel.app/" target="_blank">
+            <img src="https://img.shields.io/badge/Portfolio-Live%20Website-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+          </a>
+          <a href="https://github.com/VenkatMohan7" target="_blank">
+            <img src="https://img.shields.io/badge/GitHub-VenkatMohan7-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+          </a>
+          <img src="https://img.shields.io/badge/Location-Bengaluru%2C%20India-blue?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
+        </p>
+
+        <!-- Profile Views Counter -->
+        <p align="center">
+          <img src="https://komarev.com/ghpvc/?username=VenkatMohan7&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
+        </p>
+      </div>
+
+      <hr />
+
+      <h3 style="color:#f0f6fc; margin-bottom: 0.75rem;">💫 About Me</h3>
+      <pre><code>name: Venkat Mohan Atmakuru
+role: Full-Stack Developer
+location: Bengaluru, India
+passions: [Web Development, Clean Code Architecture, UI/UX Design, Open Source]
+current_focus: Building performant, responsive web apps with Python & Modern JavaScript
+contact: venkeyvenkat747@gmail.com</code></pre>
+
+      <p>🔭 <strong>What I’m working on:</strong> Developing modern full-stack web applications and interactive web experiences.</p>
+      <p>🌱 <strong>What I’m learning:</strong> Advanced cloud architecture, scalable microservices, and modern UI engineering.</p>
+      <p>💡 <strong>Philosophy:</strong> <em>"Crafting clean, readable code and building intuitive user experiences."</em></p>
+      <p>🌐 <strong>Explore my work:</strong> Check out my live portfolio at <a href="https://venkat-mohan-atmakuru.vercel.app/" target="_blank" style="color:#58a6ff;">venkat-mohan-atmakuru.vercel.app</a>.</p>
+      <p>💬 <strong>Let's discuss:</strong> Python, JavaScript, React, Backend APIs, or exciting collaborative projects.</p>
+      <p>📫 <strong>Reach out:</strong> <a href="mailto:venkeyvenkat747@gmail.com" style="color:#58a6ff;">venkeyvenkat747@gmail.com</a></p>
+
+      <hr />
+
+      <div align="center">
+        <h3 style="color:#f0f6fc; margin-bottom: 1rem;">🛠️ Tech Stack & Skills</h3>
+
+        <h4 style="margin: 1rem 0 0.5rem; color: #58a6ff;">🌐 Frontend Development</h4>
+        <p align="center">
+          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+          <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+          <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+          <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+          <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+        </p>
+
+        <h4 style="margin: 1rem 0 0.5rem; color: #58a6ff;">⚙️ Backend & Languages</h4>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+          <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+          <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+          <img src="https://img.shields.io/badge/REST_API-02569B?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST API" />
+        </p>
+
+        <h4 style="margin: 1rem 0 0.5rem; color: #58a6ff;">🗄️ Databases & Cloud Services</h4>
+        <p align="center">
+          <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+          <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+          <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+          <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+          <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+        </p>
+
+        <h4 style="margin: 1rem 0 0.5rem; color: #58a6ff;">🧰 Tools & DevOps</h4>
+        <p align="center">
+          <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+          <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+          <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+          <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+          <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+        </p>
+      </div>
+
+      <hr />
+
+      <div align="center">
+        <h3 style="color:#f0f6fc; margin-bottom: 1rem;">📊 GitHub Analytics & Activity</h3>
+        <table border="0" style="border:none; width:auto; margin:auto;">
+          <tr style="border:none;">
+            <td style="border:none;">
+              <img src="https://github-readme-stats.vercel.app/api?username=VenkatMohan7&show_icons=true&locale=en&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="GitHub Stats" />
+            </td>
+            <td style="border:none;">
+              <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VenkatMohan7&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=VenkatMohan7&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF7B72&currStreakLabel=58A6FF" alt="Streak Stats" />
+      </div>
+
+      <hr />
+
+      <h3 style="color:#f0f6fc; margin-bottom: 1rem;">🚀 Featured Repositories & Projects</h3>
+      <div style="overflow-x:auto;">
+        <table>
+          <thead>
+            <tr>
+              <th>Project</th>
+              <th>Description</th>
+              <th>Tech Stack</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>🌐 <strong>Portfolio</strong></td>
+              <td>Modern personal portfolio website showcasing projects, skills, and background</td>
+              <td><code>TypeScript</code>, <code>Next.js</code>, <code>Vercel</code></td>
+              <td><a href="https://github.com/VenkatMohan7/Portfolio-" target="_blank" style="color:#58a6ff;">View Repo</a> / <a href="https://venkat-mohan-atmakuru.vercel.app/" target="_blank" style="color:#58a6ff;">Live Demo</a></td>
+            </tr>
+            <tr>
+              <td>⚡ <strong>AVM-Portfolio</strong></td>
+              <td>Interactive portfolio & web application project</td>
+              <td><code>JavaScript</code>, <code>CSS3</code>, <code>HTML5</code></td>
+              <td><a href="https://github.com/VenkatMohan7/AVM-Portfolio" target="_blank" style="color:#58a6ff;">View Repo</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <hr />
+
+      <div align="center">
+        <h3 style="color:#f0f6fc; margin-bottom: 1rem;">🤝 Connect With Me</h3>
+        <p align="center">
+          <a href="mailto:venkeyvenkat747@gmail.com">
+            <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+          </a>
+          <a href="https://venkat-mohan-atmakuru.vercel.app/" target="_blank">
+            <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Website" />
+          </a>
+          <a href="https://github.com/VenkatMohan7" target="_blank">
+            <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+          </a>
+        </p>
+        <br />
+        <p align="center" style="color:#8b949e; font-size: 0.9rem;"><i>⭐️ From <a href="https://github.com/VenkatMohan7" target="_blank" style="color:#58a6ff;">Venkat Mohan Atmakuru</a> — Thanks for visiting!</i></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">✅ Markdown copied to clipboard!</div>
+
+  <script>
+    const markdownContent = `<div align="center">
+
+  <!-- Animated Glowing Dynamic Title -->
+  <a href="https://github.com/VenkatMohan7">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=34&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=true&width=800&height=120&lines=%E2%9C%A8+Venkat+Mohan+Atmakuru+%E2%9C%A8;Full-Stack+Developer+%7C+Python+%26+JavaScript;Building+Modern+%26+Scalable+Web+Apps" alt="Venkat Mohan Banner" />
+  </a>
+
+  <br />
+
+  <!-- Dynamic Subtitle Typing -->
+  <a href="https://github.com/VenkatMohan7">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=818CF8&center=true&vCenter=true&width=600&lines=Passionate+about+Clean+Code+%26+Architecture;Always+Learning+%E2%80%A2+Always+Building;Turning+Ideas+Into+Functional+Reality" alt="Typing Subtitle" />
+  </a>
+
+  <br /><br />
+
+  <!-- Social & Contact Badges -->
+  <p align="center">
+    <a href="mailto:venkeyvenkat747@gmail.com">
+      <img src="https://img.shields.io/badge/Email-venkeyvenkat747%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    <a href="https://venkat-mohan-atmakuru.vercel.app/" target="_blank">
+      <img src="https://img.shields.io/badge/Portfolio-Live%20Website-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    </a>
+    <a href="https://github.com/VenkatMohan7">
+      <img src="https://img.shields.io/badge/GitHub-VenkatMohan7-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    <img src="https://img.shields.io/badge/Location-Bengaluru%2C%20India-blue?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location" />
+  </p>
+
+  <!-- Profile Views Counter -->
+  <p align="center">
+    <img src="https://komarev.com/ghpvc/?username=VenkatMohan7&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
+  </p>
+
+</div>
+
+---
+
+### 💫 About Me
+
+\`\`\`yaml
+name: Venkat Mohan Atmakuru
+role: Full-Stack Developer
+location: Bengaluru, India
+passions: [Web Development, Clean Code Architecture, UI/UX Design, Open Source]
+current_focus: Building performant, responsive web apps with Python & Modern JavaScript
+contact: venkeyvenkat747@gmail.com
+\`\`\`
+
+- 🔭 **What I’m working on:** Developing modern full-stack web applications and interactive web experiences.
+- 🌱 **What I’m learning:** Advanced cloud architecture, scalable microservices, and modern UI engineering.
+- 💡 **Philosophy:** *"Crafting clean, readable code and building intuitive user experiences."*
+- 🌐 **Explore my work:** Check out my live portfolio at [venkat-mohan-atmakuru.vercel.app](https://venkat-mohan-atmakuru.vercel.app/).
+- 💬 **Let's discuss:** Python, JavaScript, React, Backend APIs, or exciting collaborative projects.
+- 📫 **Reach out:** [venkeyvenkat747@gmail.com](mailto:venkeyvenkat747@gmail.com)
+
+---
+
+### 🛠️ Tech Stack & Skills
+
+<div align="center">
+
+#### 🌐 Frontend Development
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+</p>
+
+#### ⚙️ Backend & Languages
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/REST_API-02569B?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST API" />
+</p>
+
+#### 🗄️ Databases & Cloud Services
+<p align="center">
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+</p>
+
+#### 🧰 Tools & DevOps
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+</p>
+
+</div>
+
+---
+
+### 📊 GitHub Analytics & Activity
+
+<div align="center">
+
+  <table border="0">
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=VenkatMohan7&show_icons=true&locale=en&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" alt="Venkat's GitHub Stats" />
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VenkatMohan7&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" />
+      </td>
+    </tr>
+  </table>
+
+  <br />
+
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=VenkatMohan7&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF7B72&currStreakLabel=58A6FF" alt="Streak Stats" />
+
+</div>
+
+---
+
+### 🚀 Featured Repositories & Projects
+
+| Project | Description | Tech Stack | Link |
+| :--- | :--- | :--- | :--- |
+| 🌐 **Portfolio** | Modern personal portfolio website showcasing projects, skills, and background | \`TypeScript\`, \`Next.js\`, \`Vercel\` | [View Repo](https://github.com/VenkatMohan7/Portfolio-) / [Live Demo](https://venkat-mohan-atmakuru.vercel.app/) |
+| ⚡ **AVM-Portfolio** | Interactive portfolio & web application project | \`JavaScript\`, \`CSS3\`, \`HTML5\` | [View Repo](https://github.com/VenkatMohan7/AVM-Portfolio) |
+
+---
+
+### 🤝 Connect With Me
+
+<div align="center">
+  
+  <a href="mailto:venkeyvenkat747@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://venkat-mohan-atmakuru.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://github.com/VenkatMohan7" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+
+  <br /><br />
+  
+  <p align="center"><i>⭐️ From <a href="https://github.com/VenkatMohan7">Venkat Mohan Atmakuru</a> — Thanks for visiting!</i></p>
+
+</div>`;
+
+    function copyReadme() {
+      navigator.clipboard.writeText(markdownContent).then(() => {
+        const toast = document.getElementById('toast');
+        toast.style.display = 'block';
+        setTimeout(() => {
+          toast.style.display = 'none';
+        }, 2500);
+      });
+    }
+  </script>
+
+</body>
+</html>
