@@ -1,15 +1,18 @@
 <div align="center">
 
-  <h1>Hi there, I'm <span style="color:#38bdf8;">Venkat Mohan Atmakuru</span> 👋</h1>
+  <!-- Custom High-Tech Vector Header Banner -->
+  <img src="https://raw.githubusercontent.com/VenkatMohan7/VenkatMohan7/main/header.svg" width="100%" alt="Venkat Mohan Header" />
 
-  <!-- Dynamic Typing Animation (Clean, Single Line, No Overlap) -->
+  <br /><br />
+
+  <!-- Dynamic Typing Animation -->
   <a href="https://github.com/VenkatMohan7">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&height=45&lines=Full-Stack+Developer+%7C+Python+%26+JavaScript;Building+modern%2C+scalable+web+applications;Turning+ideas+into+clean%2C+functional+code;Always+learning+%26+building+new+things" alt="Typing SVG" />
   </a>
 
   <br /><br />
 
-  <!-- Social & Contact Badges (Including LinkedIn & Instagram from your profile) -->
+  <!-- Social & Contact Badges -->
   <p align="center">
     <a href="https://linkedin.com/in/venkat-mohan-atmakuru" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -142,7 +145,7 @@ contact: venkeyvenkat747@gmail.com
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:venkeyvenkat747@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Email-venkeyvenkat747%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://venkat-mohan-atmakuru.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Website" />
