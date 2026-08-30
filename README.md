@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- Live Dynamic Capsule-Render Waving Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Venkat%20Mohan%20Atmakuru&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Python%20%26%20JavaScript%20Enthusiast&descFontSize=20" width="100%" alt="Header" />
+  <!-- Live Dynamic Capsule-Render Waving Header Banner (Fixed XML Error) -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Venkat%20Mohan%20Atmakuru&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Python%20and%20JavaScript%20Enthusiast&descFontSize=20" width="100%" alt="Header" />
 
   <br />
 
