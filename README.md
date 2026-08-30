@@ -1,11 +1,11 @@
 <div align="center">
 
-  <!-- Custom High-Tech Vector Header Banner -->
+  <!-- Waving Header Banner -->
   <img src="https://raw.githubusercontent.com/VenkatMohan7/VenkatMohan7/main/header.svg" width="100%" alt="Venkat Mohan Header" />
 
-  <br /><br />
+  <br />
 
-  <!-- Dynamic Typing Animation -->
+  <!-- Animated Typing Subtitle -->
   <a href="https://github.com/VenkatMohan7">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&height=45&lines=Full-Stack+Developer+%7C+Python+%26+JavaScript;Building+modern%2C+scalable+web+applications;Turning+ideas+into+clean%2C+functional+code;Always+learning+%26+building+new+things" alt="Typing SVG" />
   </a>
