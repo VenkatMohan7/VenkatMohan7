@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- Gray / Dark Slate Gradient Waving Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=111827,1f2937,374151&height=220&section=header&text=Venkat%20Mohan%20Atmakuru&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Python%20and%20JavaScript%20Enthusiast&descFontSize=20" width="100%" alt="Header" />
+  <!-- True Gray / Charcoal Slate Gradient Waving Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4b5563,100:111827&height=220&section=header&text=Venkat%20Mohan%20Atmakuru&fontSize=42&fontColor=ffffff&animation=fadeIn&desc=Full-Stack%20Developer%20%7C%20Python%20and%20JavaScript%20Enthusiast&descFontSize=20" width="100%" alt="Header" />
 
   <br />
 
@@ -159,8 +159,8 @@ contact: venkeyvenkat747@gmail.com
 
   <br /><br />
   
-  <!-- Matching Gray / Dark Slate Gradient Ending Footer Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=111827,1f2937,374151&height=100&section=footer" width="100%" alt="Footer" />
+  <!-- Matching True Gray / Dark Charcoal Waving Ending Footer Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4b5563,100:111827&height=100&section=footer" width="100%" alt="Footer" />
   
   <p align="center"><i>⭐️ From <a href="https://github.com/VenkatMohan7">Venkat Mohan Atmakuru</a> — Thanks for visiting!</i></p>
 
